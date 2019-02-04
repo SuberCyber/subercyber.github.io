@@ -7,13 +7,16 @@ body{
   line-height: 1.166; 
   margin: 0px;
   padding: 0px;
+}
+
+div.background {
   background-image: url("images/header.jpg");
   background-repeat: no-repeat;
-  
 }
 
 div.overlay{
-	opacity: 0.3;
+  opacity: 0.3;
+  filter: alpha(opacity=60);
 }
 
 a{
