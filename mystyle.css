@@ -64,6 +64,8 @@ img{
   max-width: 100%;
   height: auto;
   opacity: 0.3;
+  margin: 0px;
+  padding: 0px;
 }
 
 #header{
