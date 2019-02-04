@@ -1,0 +1,40 @@
+use strict mode
+
+let hand = prompt ('Do you want to play a hand of crib?', '');
+
+
+let play = confirm("Do you want to play a hand?");
+
+let hand =[0,0,0,0,0,0];
+hand[0] = Math.floor(Math.random()*52)+1;
+while (hand[0] == hand[1]){
+hand[1] = Math.floor(Math.random()*52)+1;
+}
+
+while (hand[0] == hand[2] || hand[1] == hand[2]){
+hand[2] = Math.floor(Math.random()*52)+1;
+}
+
+while (hand[0] == hand[3] || hand[1] == hand[3] || card 3 == hand[3]){
+hand[3] = Math.floor(Math.random()*52)+1;
+}
+
+while (hand[0] == hand[4] || hand[1] == hand[4] || hand[2] == hand[4] || hand[3] == hand[4]){
+hand[4] = Math.floor(Math.random()*52)+1;
+}
+
+while (hand[0] == hand[5] || hand[1] == hand[5] || hand[2] == hand[5] || hand[3] == hand[5] || hand[4] == hand[5]){
+hand[5] = Math.floor(Math.random()*52)+1;
+}
+
+let deck = [];
+for (let i = 0; i < 52; ++ i){
+   deck [i] = 0;
+}
+
+for (let i = 0; i < hand.length; ++ i){
+   j = hand[i];
+   deck[j] = 1;
+}
+
+ count15(
