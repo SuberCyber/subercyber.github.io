@@ -29,7 +29,7 @@ a:hover{
 
 h1{
  font-family: Verdana,Arial,sans-serif;
- font-size: 120%;
+ font-size: 240%;
  color: #334d55;
  margin: 0px;
  padding: 0px;
@@ -64,7 +64,7 @@ h4{
   border-bottom: 1px solid #E2EAEF;
   height: 90px;
   width: 100%;
-  background-image: url(images/banner.jpg); 
+  background-image: url(images/header.jpg); 
   background-repeat: no-repeat;
   background-position: top right;
 }
