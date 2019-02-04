@@ -15,9 +15,13 @@ div.background {
 }
 
 div.overlay{
+	background-color: #FFFFFF;
   opacity: 0.1;
   filter: alpha(opacity=80);
 }
+
+div.overlay{
+	color: white;
 
 a{
   color: #006699;
