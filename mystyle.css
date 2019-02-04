@@ -15,7 +15,7 @@ div.background {
 }
 
 div.overlay{
-  opacity: 0.8;
+  opacity: 0.9;
   filter: alpha(opacity=80);
 }
 
@@ -81,7 +81,7 @@ img{
 #header{
   padding: 7px;
   border-bottom: 1px solid #E2EAEF;
-  height: 90px;
+  height: 50px;
   width: 100%;
   background-color: black;
 }
