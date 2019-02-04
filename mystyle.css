@@ -15,7 +15,7 @@ div.background {
 }
 
 div.overlay{
-  opacity: 0.9;
+  opacity: 0.1;
   filter: alpha(opacity=80);
 }
 
