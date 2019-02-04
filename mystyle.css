@@ -12,7 +12,7 @@ body{
   
 }
 
-#overlay{
+div.overlay{
 	opacity: 0.3;
 }
 
