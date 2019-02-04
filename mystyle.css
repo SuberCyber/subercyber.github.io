@@ -58,43 +58,18 @@ h4{
  margin: 0px;
  padding: 0px;
 }
+img{
+  max-width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
 
 #header{
   padding: 7px;
   border-bottom: 1px solid #E2EAEF;
   height: 90px;
   width: 100%;
-  background-image: url(images/header.jpg); 
-  background-repeat: no-repeat;
-  background-position: top right;
-}
-
-#nav {
-  padding: 5px;
-  border-bottom: 1px solid #E2EAEF;
-  border-top: 1px solid #E2EAEF;
-  border-right: 1px solid #E2EAEF;
-  background-color: #FFE3AA;
-  float: left;
-  width: 15%;
-  min-height: 275px;
-}
-
-#main {
-  padding: 10px;
-  border-top: 1px solid #E2EAEF;
-  float: left;
-  width: 60%;
-}
-
-#news {
-  padding: 5px;
-  border-top: 1px solid #E2EAEF;
-  border-left: 1px solid #E2EAEF;
-  background-color: #f3f6f8;
-  float: right;
-  width: 22%;
-  min-height: 275px;
+  background-color: black;
 }
 
 #footer {
