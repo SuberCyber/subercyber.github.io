@@ -13,7 +13,6 @@ div.background {
   background-image: url("images/header.jpg");
   background-repeat: no-repeat;
   height: 500px;
-  width: 100%;
 }
 
 div.overlay {
