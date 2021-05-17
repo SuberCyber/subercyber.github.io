@@ -1,25 +1,20 @@
 body{
   font-family: Arial,sans-serif;
-  font-size: 80%;
   width: 100%;
   height: 100%;
-  color: black;
+  font-size: 150%;
+  color: white;
   line-height: 1.166; 
   margin: 0px;
   padding: 0px;
 }
 
 div.background {
-  background-image: url("images/header.jpg");
-  width: auto;
-  height: 750px;
+  background-image: linear-gradient(#020260, #0406FF);
+  width: 100%;
+  height: 100vh;
 }
 
-div.overlay {
-	background-color: #FFFFFF;
-  opacity: 0.7;
-  filter: alpha(opacity=80);
-}
 
 a{
   color: #006699;
@@ -41,60 +36,15 @@ a:hover{
   text-decoration: underline;
 }
 
-h1{
- font-family: Verdana,Arial,sans-serif;
- font-size: 240%;
+h1 {
+ font-family:  'Berkshire Swash', cursive;
+ font-size: 500%;
  color: white;
  margin: 0px;
- padding: 0px;
+ padding-top: 25vh;
+ text-align: center;
 }
 
-h2{
- font-family: Arial,sans-serif;
- font-size: 120%;
- color: #334d55;
- margin: 0px;
- padding: 0px;
+p {
+  padding: 10vh 10vw;
 }
-
-h3{
- font-family: Arial,sans-serif;
- font-size: 110%;
- color: #334d55;
- margin: 0px;
- padding: 0px;
-}
-
-h4{
- font-family: Arial,sans-serif;
- font-size: 100%;
- color: #334d55;
- margin: 0px;
- padding: 0px;
-}
-img{
-  max-width: 100%;
-  height: auto;
-  opacity: 0.3;
-  margin: 0px;
-  padding: 0px;
-}
-
-#header{
-  padding: 7px;
-  border-bottom: 1px solid #E2EAEF;
-  height: 45px;
-  width: 100%;
-  background-color: black;
-}
-
-#footer {
-  clear: both;
-  text-align: center;
-  padding: 7px;
-  border-bottom: 1px solid #E2EAEF;
-  border-top: 1px solid #E2EAEF;
-  background-color: #f3f6f8;
-  width: 100%;
-}
-
